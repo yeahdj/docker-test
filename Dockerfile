@@ -8,7 +8,7 @@ WORKDIR /app
 COPY . /app
 
 # Install the required dependencies
-RUN npm install
+RUN cat /etc/os-release
 
 # Set the command to run your application
 CMD ["npm", "start"]
