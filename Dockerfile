@@ -1,5 +1,5 @@
 # Use the official Node.js base image
-FROM node:14
+FROM nginx
 
 # Set the working directory in the container
 WORKDIR /app
